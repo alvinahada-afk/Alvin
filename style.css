@@ -240,3 +240,32 @@ font-size:16px;
 margin-top:15px;
 
 }
+
+.creator {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f1eb;
+    margin-top: 40px;
+}
+
+.creator h2 {
+    font-size: 32px;
+    color: #8b5e3c;
+    margin-bottom: 15px;
+}
+
+.creator p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.creator-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #8b5e3c;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
