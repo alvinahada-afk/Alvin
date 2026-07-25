@@ -8,7 +8,7 @@ let layanan = document.getElementById("layanan").value;
 let tanggal = document.getElementById("tanggal").value;
 
 
-let nomor = "6281234567890"; 
+let nomor = "6283892513500"; 
 // Ganti dengan nomor WhatsApp Luxe Pet Grooming
 
 
