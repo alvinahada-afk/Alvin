@@ -36,7 +36,7 @@ Mohon info jadwal tersedia. Terima kasih.`;
 
 
 window.open(
-"https://wa.me/"+nomor+"?text="+encodeURIComponent(pesan),
+"https://wa.me/"+6283892513500+"?text="+encodeURIComponent(pesan),
 "_blank"
 );
 
