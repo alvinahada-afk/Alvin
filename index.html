@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Animals - Pet Grooming</title>
+<title>Luxe Pet Grooming - Pet Grooming</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,7 +11,7 @@
 
 <header>
     <div class="logo">
-        🐾 The Animals
+        🐾 Luxe Pet Grooming 
     </div>
     <a href="#kontak" class="btn">Pesan Sekarang</a>
 </header>
@@ -34,39 +34,67 @@
 <section>
 <h2>Tentang Kami</h2>
 <p>
-The Animals adalah tempat grooming terpercaya untuk hewan peliharaan.
-Kami menyediakan perawatan mandi, potong bulu, dan perawatan kesehatan dasar.
+Luxe Pet Grooming adalah tempat grooming terpercaya untuk hewan peliharaan.
+Kami menyediakan layanan perawatan mandi, potong bulu, dan perawatan kesehatan dasar.
 </p>
 </section>
 
+<section class="services">
 
-<section>
-<h2>Layanan Kami</h2>
-
-<div class="produk">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee">
-<h3>Grooming Basic</h3>
-<p>Mandi, pengeringan, dan pembersihan kuku.</p>
-<b>Rp75.000</b>
-</div>
+  <div class="card">
+    <h2>🐱 Cat Grooming Basic</h2>
+    <p>Mandi dan pengeringan.</p>
+    <h3>Rp70.000</h3>
+    <button onclick="pesan('Cat Grooming Basic')">Pesan Sekarang</button>
+  </div>
 
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7">
-<h3>Full Grooming</h3>
-<p>Potong bulu, mandi, parfum, dan styling.</p>
-<b>Rp150.000</b>
-</div>
+  <div class="card">
+    <h2>🐶 Dog Grooming Basic</h2>
+    <p>Mandi dan pengeringan.</p>
+    <h3>Rp90.000</h3>
+    <button onclick="pesan('Dog Grooming Basic')">Pesan Sekarang</button>
+  </div>
 
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b">
-<h3>Perawatan Premium</h3>
-<p>Perawatan lengkap untuk hewan kesayangan.</p>
-<b>Rp250.000</b>
-</div>
+  <div class="card">
+    <h2>🐱 Cat Flea Treatment</h2>
+    <p>Mandi kutu dan pengeringan.</p>
+    <h3>Rp100.000</h3>
+    <button onclick="pesan('Cat Flea Treatment')">Pesan Sekarang</button>
+  </div>
+
+
+  <div class="card">
+    <h2>🐶 Dog Flea Treatment</h2>
+    <p>Mandi kutu dan pengeringan.</p>
+    <h3>Rp120.000</h3>
+    <button onclick="pesan('Dog Flea Treatment')">Pesan Sekarang</button>
+  </div>
+
+
+  <div class="card">
+    <h2>✨ Cat Full Grooming Spa</h2>
+    <p>
+      Mandi, pengeringan, potong bulu,
+      pembersihan kuku, dan styling.
+    </p>
+    <h3>Rp140.000</h3>
+    <button onclick="pesan('Cat Full Grooming Spa')">Pesan Sekarang</button>
+  </div>
+
+
+  <div class="card">
+    <h2>✨ Dog Full Grooming Spa</h2>
+    <p>
+      Mandi, pengeringan, potong bulu,
+      pembersihan kuku, dan styling.
+    </p>
+    <h3>Rp160.000</h3>
+    <button onclick="pesan('Dog Full Grooming Spa')">Pesan Sekarang</button>
+  </div>
+
+</section>
 
 </div>
 
@@ -84,7 +112,7 @@ Kami menyediakan perawatan mandi, potong bulu, dan perawatan kesehatan dasar.
 </p>
 
 <p>
-"Tempat nyaman dan hasil grooming bagus."
+"Pelayanan profesional dan hasil grooming bagus."
 <br>
 ⭐⭐⭐⭐⭐
 </p>
@@ -106,18 +134,27 @@ Kami menyediakan perawatan mandi, potong bulu, dan perawatan kesehatan dasar.
 </p>
 
 <p>
-Instagram: @theanimals
+Instagram: @luxepetgrooming_
 </p>
 
-<a class="btn" href="https://wa.me/6283892513500">
-WhatsApp Kami
-</a>
+<script>
+function pesan(layanan) {
+  let nomor = "6283892513500"; 
+  let pesan = "Halo Luxe pet grooming, saya ingin pesan layanan " + layanan;
+  
+  window.open(
+    "https://wa.me/" + nomor + "?text=" + encodeURIComponent(pesan),
+    "_blank"
+  );
+}
+</script>
 
 </section>
 
 
 <footer>
-© 2026 The Animals Grooming
+© 2026 Luxe Pet Grooming
+    Alvin studio 
 </footer>
 
 
